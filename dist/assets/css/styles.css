@@ -130,6 +130,11 @@ video::-webkit-media-controls-panel-container {
 .camera-stream {
     position: relative;
     z-index: -1;
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto;
+    object-fit: cover;
+    transform: scaleX(-1);
 }
 
 .app video#camera-stream.visible,
